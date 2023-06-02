@@ -10,9 +10,9 @@
 
 
 
-            <form>
-                <input type="text" name="name" value="">
-                <input type="text" name="pass" value="">
+            <form method="post" action="vezba2.php">
+                
+                <input type="text" name="pass" placeholder="Sifra mora imati od 4 do 8 karaktera">
                 <button type="submit">Pritisni</button>
             </form>
     
